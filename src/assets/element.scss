@@ -1,0 +1,34 @@
+:root {
+  --el-color-primary: #ff9800 !important;
+  --el-color-success: #67c23a;
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #f56c6c;
+  --el-color-info: #909399;
+}
+
+/* 去掉表格单元格的右侧边框（列之间的竖线） */
+.el-table td.el-table__cell,
+.el-table th.el-table__cell {
+  border-right: none !important;
+}
+.el-table th {
+  background: #ffe082 !important;
+  color: #000 !important;
+  .cell {
+    font-weight: 600 !important;
+  }
+}
+.el-table__cell {
+  font-size: 16px;
+}
+.el-input__wrapper,
+.el-select__wrapper {
+  background-color: #fff7e6 !important;
+  .el-icon,
+  input {
+    color: #e8a107;
+  }
+  .el-select__selected-item {
+    color: #e8a107;
+  }
+}

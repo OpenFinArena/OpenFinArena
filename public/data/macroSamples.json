@@ -1,0 +1,642 @@
+[
+  {
+    "taskId": 6189,
+    "market": "CN",
+    "question": "Forecast the [China Renminbi Spot] USDCNY Spot Exchange Rate - Price of 1 USD in CNY for China on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6547,
+    "market": "CN",
+    "question": "What is your projection for China's China, House Prices, by City, Newly Built Commercial Residential Buildings, Shanghai, Index, Corresponding Period of the Previous Year = 100 in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6519,
+    "market": "CN",
+    "question": "Based on recent trends, forecast China's SHANGHAI SE COMPOSITE IX for November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6190,
+    "market": "CN",
+    "question": "Using available economic data, estimate China's China Household Savings Deposits 1 Year Rate for November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6486,
+    "market": "CN",
+    "question": "As an economist, predict China's [China Renminbi Spot] USDCNY Spot Exchange Rate - Price of 1 USD in CNY on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6457,
+    "market": "CN",
+    "question": "Provide your estimate for China's China Household Savings Deposits 1 Year Rate on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6489,
+    "market": "CN",
+    "question": "Predict the SHANGHAI SE COMPOSITE IX for China on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6192,
+    "market": "CN",
+    "question": "As an economist, predict China's SHANGHAI SE COMPOSITE IX on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6548,
+    "market": "CN",
+    "question": "As an analyst, predict China's China, BIS, Nominal Broad Effective Exchange Rate Index, Average, 2020 = 100, Not Seasonal Adjusted in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6546,
+    "market": "CN",
+    "question": "Forecast the China, Consumer Price Index, Standardized, 2010 = 100, Seasonal Adjusted for China in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6193,
+    "market": "DE",
+    "question": "As an economist, predict Germany's [Euro Spot] EURUSD Spot Exchange Rate - Price of 1 EUR in USD on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6521,
+    "market": "DE",
+    "question": "Provide your estimate for Germany's German Government Bonds 1 Yr BKO on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6490,
+    "market": "DE",
+    "question": "As an economist, predict Germany's [Euro Spot] EURUSD Spot Exchange Rate - Price of 1 EUR in USD on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6194,
+    "market": "DE",
+    "question": "Provide your estimate for Germany's German Government Bonds 1 Yr BKO on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6523,
+    "market": "DE",
+    "question": "Using available economic data, estimate Germany's CDAX Performance Index for November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6461,
+    "market": "DE",
+    "question": "Forecast the German Government Bonds 1 Yr BKO for Germany on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6554,
+    "market": "DE",
+    "question": "What will the Germany, Producer Prices Index, 2021 = 100, Not Seasonal Adjusted be for Germany in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6493,
+    "market": "DE",
+    "question": "Estimate Germany's CDAX Performance Index on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6196,
+    "market": "DE",
+    "question": "What is your projection for Germany's CDAX Performance Index on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6460,
+    "market": "DE",
+    "question": "Predict the [Euro Spot] EURUSD Spot Exchange Rate - Price of 1 EUR in USD for Germany on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6197,
+    "market": "FR",
+    "question": "Using available economic data, estimate France's [Euro Spot] EURUSD Spot Exchange Rate - Price of 1 EUR in USD for November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6557,
+    "market": "FR",
+    "question": "What is your projection for France's France, Consumer Price Index, Standardized, SA, Index, 2010 = 100,Seasonal Adjusted in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6527,
+    "market": "FR",
+    "question": "Analyze and predict France's CAC 40 INDEX for November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6198,
+    "market": "FR",
+    "question": "What will the German Government Bonds 1 Yr BKO be for France on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6494,
+    "market": "FR",
+    "question": "Using available economic data, estimate France's [Euro Spot] EURUSD Spot Exchange Rate - Price of 1 EUR in USD for November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6465,
+    "market": "FR",
+    "question": "Predict the German Government Bonds 1 Yr BKO for France on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6497,
+    "market": "FR",
+    "question": "As an economist, predict France's CAC 40 INDEX on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6200,
+    "market": "FR",
+    "question": "Forecast the CAC 40 INDEX for France on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6558,
+    "market": "FR",
+    "question": "What is your projection for France's France, House Price Index, 2010Q1 = 100, Not Seasonal Adjusted in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6556,
+    "market": "FR",
+    "question": "Provide your estimate for France's France, Current Account Balance,Seasonal Adjusted, Euro in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6201,
+    "market": "HK",
+    "question": "Predict the [Hong Kong Dollar Spot] USDHKD Spot Exchange Rate - Price of 1 USD in HKD for Hong Kong on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6469,
+    "market": "HK",
+    "question": "Based on recent trends, forecast Hong Kong's HKMA Hong Kong Exchange Fund Bills 12 Month for November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6501,
+    "market": "HK",
+    "question": "Estimate Hong Kong's HANG SENG INDEX on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6202,
+    "market": "HK",
+    "question": "What will the HKMA Hong Kong Exchange Fund Bills 12 Month be for Hong Kong on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6498,
+    "market": "HK",
+    "question": "Predict the [Hong Kong Dollar Spot] USDHKD Spot Exchange Rate - Price of 1 USD in HKD for Hong Kong on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6561,
+    "market": "HK",
+    "question": "As an analyst, predict Hong Kong's Hong Kong, Consumer Price Index, Standardized, 2010 = 100, Seasonal Adjusted in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6204,
+    "market": "HK",
+    "question": "Estimate Hong Kong's HANG SENG INDEX on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6529,
+    "market": "HK",
+    "question": "What is your projection for Hong Kong's HKMA Hong Kong Exchange Fund Bills 12 Month on November 26, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6531,
+    "market": "HK",
+    "question": "Estimate Hong Kong's HANG SENG INDEX on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6562,
+    "market": "HK",
+    "question": "What is your projection for Hong Kong's Hong Kong, BIS, Nominal Narrow Effective Exchange Rate Index, Average, 2020 = 100, Not Seasonal Adjusted in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6205,
+    "market": "JP",
+    "question": "As an economist, predict Japan's [Japanese Yen Spot] USDJPY Spot Exchange Rate - Price of 1 USD in JPY on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6533,
+    "market": "JP",
+    "question": "Using available economic data, estimate Japan's Japan Treasury Bills 12 Month for November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6502,
+    "market": "JP",
+    "question": "Based on recent trends, forecast Japan's [Japanese Yen Spot] USDJPY Spot Exchange Rate - Price of 1 USD in JPY for November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6206,
+    "market": "JP",
+    "question": "Estimate Japan's Japan Treasury Bills 12 Month on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6535,
+    "market": "JP",
+    "question": "Predict the NIKKEI 500 for Japan on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6473,
+    "market": "JP",
+    "question": "Predict the Japan Treasury Bills 12 Month for Japan on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6568,
+    "market": "JP",
+    "question": "Forecast the Japan, Producer Prices, Domestic, Total, Index, 2020 = 100, Not Seasonal Adjusted for Japan in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6505,
+    "market": "JP",
+    "question": "Forecast the NIKKEI 500 for Japan on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6208,
+    "market": "JP",
+    "question": "What will the NIKKEI 500 be for Japan on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6472,
+    "market": "JP",
+    "question": "Based on recent trends, forecast Japan's [Japanese Yen Spot] USDJPY Spot Exchange Rate - Price of 1 USD in JPY for November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6536,
+    "market": "SG",
+    "question": "Predict the [Singapore Dollar Spot] USDSGD Spot Exchange Rate - Price of 1 USD in SGD for Singapore on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6538,
+    "market": "SG",
+    "question": "Estimate Singapore's STRAITS TIMES INDEX on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6209,
+    "market": "SG",
+    "question": "What is your projection for Singapore's [Singapore Dollar Spot] USDSGD Spot Exchange Rate - Price of 1 USD in SGD on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6571,
+    "market": "SG",
+    "question": "Predict the Singapore, BIS, Nominal Narrow Effective Exchange Rate Index, Average, 2020 = 100, Not Seasonal Adjusted for Singapore in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6478,
+    "market": "SG",
+    "question": "Analyze and predict Singapore's STRAITS TIMES INDEX for November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6508,
+    "market": "SG",
+    "question": "Based on recent trends, forecast Singapore's STRAITS TIMES INDEX for November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6211,
+    "market": "SG",
+    "question": "Analyze and predict Singapore's STRAITS TIMES INDEX for November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6210,
+    "market": "SG",
+    "question": "What is your projection for Singapore's Monetary Authority of Singapore Benchmark Govt Bill Yield 3 Month on November 05, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6572,
+    "market": "SG",
+    "question": "Forecast the Singapore, Producer Prices Index, 2023 = 100, Not Seasonal Adjusted for Singapore in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6477,
+    "market": "SG",
+    "question": "As an economist, predict Singapore's Monetary Authority of Singapore Benchmark Govt Bill Yield 3 Month on November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6212,
+    "market": "UK",
+    "question": "Provide your estimate for United Kingdom's [British Pound Spot] GBPUSD Spot Exchange Rate - Price of 1 GBP in USD on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6574,
+    "market": "UK",
+    "question": "What is your projection for United Kingdom's United Kingdom, Consumer Price Index, Standardized, 2010 = 100, Seasonal Adjusted in November 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6542,
+    "market": "UK",
+    "question": "What is your projection for United Kingdom's FTSE 100 INDEX on November 26, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6213,
+    "market": "UK",
+    "question": "Estimate United Kingdom's UK Generic Govt Bonds 1 Year Note on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6509,
+    "market": "UK",
+    "question": "What will the [British Pound Spot] GBPUSD Spot Exchange Rate - Price of 1 GBP in USD be for United Kingdom on November 19, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6480,
+    "market": "UK",
+    "question": "Analyze and predict United Kingdom's UK Generic Govt Bonds 1 Year Note for November 12, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6512,
+    "market": "UK",
+    "question": "What will the FTSE 100 INDEX be for United Kingdom on November 19, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6215,
+    "market": "UK",
+    "question": "Provide your estimate for United Kingdom's FTSE 100 INDEX on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6575,
+    "market": "UK",
+    "question": "As an analyst, predict United Kingdom's United Kingdom,NATIONWIDE MONTHLY AVERAGE HOUSE PRICE INDEX, 1993Q1 = 100, Seasonal Adjusted in November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6573,
+    "market": "UK",
+    "question": "Based on macroeconomic trends, forecast United Kingdom's United Kingdom, Balance of Payments, Current Account, Seasonal Adjusted, British Pound Sterling for November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6216,
+    "market": "US",
+    "question": "Provide your estimate for United States's US TREASURY CONSTANT MATURITIES 1 YR on November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6217,
+    "market": "US",
+    "question": "Using available economic data, estimate United States's US Generic Govt 3 Month Yield for November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6485,
+    "market": "US",
+    "question": "What will the S&P 500 INDEX be for United States on November 12, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6580,
+    "market": "US",
+    "question": "Based on macroeconomic trends, forecast United States's United States, Producer Prices Index, Final Demand, 2009M11 = 100, Not Seasonal Adjusted for November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6579,
+    "market": "US",
+    "question": "Using available economic data, estimate United States's United States, BIS, Nominal Narrow Effective Exchange Rate Index, Average, 2020 = 100, Not Seasonal Adjusted for November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  },
+  {
+    "taskId": 6545,
+    "market": "US",
+    "question": "What is your projection for United States's S&P 500 INDEX on November 26, 2025?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6515,
+    "market": "US",
+    "question": "Forecast the S&P 500 INDEX for United States on November 19, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6543,
+    "market": "US",
+    "question": "Provide your estimate for United States's US TREASURY CONSTANT MATURITIES 1 YR on November 26, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6218,
+    "market": "US",
+    "question": "Using available economic data, estimate United States's S&P 500 INDEX for November 05, 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6581,
+    "market": "US",
+    "question": "Based on macroeconomic trends, forecast United States's United States, Total Unemployed Rate, Seasonal Adjusted for November 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-30",
+    "expectedAnswerReleaseDate": "2025-12-31"
+  }
+]

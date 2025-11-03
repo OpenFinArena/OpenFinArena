@@ -1,0 +1,650 @@
+[
+  {
+    "taskId": 6112,
+    "index": "CAC 40",
+    "company": "Legrand SA",
+    "question": "As a financial analyst, predict Legrand SA (LR)'s Net Margin for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6106,
+    "index": "CAC 40",
+    "company": "Bouygues SA",
+    "question": "Using available financial data, estimate Bouygues SA (EN)'s Depreciation & Amortization for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6110,
+    "index": "CAC 40",
+    "company": "Engie SA",
+    "question": "Analyze and predict Engie SA (ENGI)'s Return on Assets (RoA) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6105,
+    "index": "CAC 40",
+    "company": "Bouygues SA",
+    "question": "As a financial analyst, predict Bouygues SA (EN)'s Return on Equity (RoE) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6113,
+    "index": "CAC 40",
+    "company": "Legrand SA",
+    "question": "Provide your estimate for Legrand SA (LR)'s Total Assets in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6107,
+    "index": "CAC 40",
+    "company": "Bouygues SA",
+    "question": "As a financial analyst, predict Bouygues SA (EN)'s Interest Coverage Ratio (Operating Income) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6109,
+    "index": "CAC 40",
+    "company": "Engie SA",
+    "question": "Provide your estimate for Engie SA (ENGI)'s Operating Income in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6108,
+    "index": "CAC 40",
+    "company": "Engie SA",
+    "question": "Analyze and predict Engie SA (ENGI)'s Gross Margin for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6111,
+    "index": "CAC 40",
+    "company": "Legrand SA",
+    "question": "As a financial analyst, predict Legrand SA (LR)'s NPL Ratio for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6324,
+    "index": "CSI 300",
+    "company": "Semiconductor Manufacturing International Corp",
+    "question": "Analyze and predict Semiconductor Manufacturing International Corp (688981)'s Asset Turnover for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6325,
+    "index": "CSI 300",
+    "company": "Semiconductor Manufacturing International Corp",
+    "question": "Estimate Semiconductor Manufacturing International Corp (688981)'s Operating Income for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6326,
+    "index": "CSI 300",
+    "company": "Semiconductor Manufacturing International Corp",
+    "question": "What is your projection for Semiconductor Manufacturing International Corp (688981)'s Profit Margin in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6439,
+    "index": "FTSE 100",
+    "company": "Severn Trent PLC",
+    "question": "What will Severn Trent PLC (SVT)'s Gross Margin be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-19"
+  },
+  {
+    "taskId": 6436,
+    "index": "FTSE 100",
+    "company": "Imperial Brands PLC",
+    "question": "Predict Imperial Brands PLC (IMB)'s Total Equity for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-18"
+  },
+  {
+    "taskId": 6442,
+    "index": "FTSE 100",
+    "company": "Halma PLC",
+    "question": "Forecast Halma PLC (HLMA)'s Interest Coverage Ratio (EBIT) for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-20"
+  },
+  {
+    "taskId": 6099,
+    "index": "FTSE 100",
+    "company": "J Sainsbury PLC",
+    "question": "Using available financial data, estimate J Sainsbury PLC (SBRY)'s Interest Coverage Ratio (EBITDA) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6333,
+    "index": "FTSE 100",
+    "company": "Burberry Group PLC",
+    "question": "What is your projection for Burberry Group PLC (BRBY)'s Total Current Liabilities in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-13"
+  },
+  {
+    "taskId": 6340,
+    "index": "FTSE 100",
+    "company": "Land Securities Group PLC",
+    "question": "Estimate Land Securities Group PLC (LAND)'s Operating Margin for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6104,
+    "index": "FTSE 100",
+    "company": "National Grid PLC",
+    "question": "What is your projection for National Grid PLC (NG.)'s Operating Income in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6341,
+    "index": "FTSE 100",
+    "company": "Land Securities Group PLC",
+    "question": "Provide your estimate for Land Securities Group PLC (LAND)'s EBIT in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6090,
+    "index": "FTSE 100",
+    "company": "BP PLC",
+    "question": "Analyze and predict BP PLC (BP.)'s Operating Income for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 6339,
+    "index": "FTSE 100",
+    "company": "Land Securities Group PLC",
+    "question": "Provide your estimate for Land Securities Group PLC (LAND)'s Total Assets in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6250,
+    "index": "HSI",
+    "company": "CSPC Pharmaceutical Group Ltd",
+    "question": "Using available financial data, estimate CSPC Pharmaceutical Group Ltd (1093)'s NPL Ratio for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-26"
+  },
+  {
+    "taskId": 6447,
+    "index": "HSI",
+    "company": "Geely Automobile Holdings Ltd",
+    "question": "Forecast Geely Automobile Holdings Ltd (175)'s Total Equity for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-17"
+  },
+  {
+    "taskId": 6245,
+    "index": "HSI",
+    "company": "Xiaomi Corp",
+    "question": "Forecast Xiaomi Corp (1810)'s Operating Margin for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-24"
+  },
+  {
+    "taskId": 6449,
+    "index": "HSI",
+    "company": "Geely Automobile Holdings Ltd",
+    "question": "What will Geely Automobile Holdings Ltd (175)'s EBITDA be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-17"
+  },
+  {
+    "taskId": 6350,
+    "index": "HSI",
+    "company": "Tencent Holdings Ltd",
+    "question": "What is your projection for Tencent Holdings Ltd (700)'s Total Current Liabilities in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-13"
+  },
+  {
+    "taskId": 6351,
+    "index": "HSI",
+    "company": "Li Auto Inc",
+    "question": "What is your projection for Li Auto Inc (2015)'s Cash from Investing Activities in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6451,
+    "index": "HSI",
+    "company": "Baidu Inc",
+    "question": "What is your projection for Baidu Inc (9888)'s R&D Expense in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-18"
+  },
+  {
+    "taskId": 6453,
+    "index": "HSI",
+    "company": "Meituan",
+    "question": "Provide your estimate for Meituan (3690)'s R&D Expense in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-21"
+  },
+  {
+    "taskId": 6354,
+    "index": "HSI",
+    "company": "Semiconductor Manufacturing International Corp",
+    "question": "Analyze and predict Semiconductor Manufacturing International Corp (981)'s Interest Coverage Ratio (EBITDA) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6114,
+    "index": "HSI",
+    "company": "Galaxy Entertainment Group Ltd",
+    "question": "What will Galaxy Entertainment Group Ltd (27)'s Return on Equity (RoE) be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 5829,
+    "index": "NASDAQ 100",
+    "company": "Microchip Technology Inc",
+    "question": "As a financial analyst, predict Microchip Technology Inc (MCHP)'s Total Equity for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5799,
+    "index": "NASDAQ 100",
+    "company": "IDEXX Laboratories Inc",
+    "question": "What will IDEXX Laboratories Inc (IDXX)'s Depreciation & Amortization be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-3"
+  },
+  {
+    "taskId": 5821,
+    "index": "NASDAQ 100",
+    "company": "Exelon Corp",
+    "question": "Provide your estimate for Exelon Corp (EXC)'s Interest Coverage Ratio (EBIT) in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5830,
+    "index": "NASDAQ 100",
+    "company": "Microchip Technology Inc",
+    "question": "Based on historical data, forecast Microchip Technology Inc (MCHP)'s Interest Coverage Ratio (EBITDA) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5817,
+    "index": "NASDAQ 100",
+    "company": "Amgen Inc",
+    "question": "Estimate Amgen Inc (AMGN)'s Revenue for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5827,
+    "index": "NASDAQ 100",
+    "company": "Marriott International Inc/MD",
+    "question": "Based on historical data, forecast Marriott International Inc/MD (MAR)'s Return on Equity (RoE) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5809,
+    "index": "NASDAQ 100",
+    "company": "ON Semiconductor Corp",
+    "question": "What is your projection for ON Semiconductor Corp (ON)'s Interest Coverage Ratio (EBIT) in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-3"
+  },
+  {
+    "taskId": 6220,
+    "index": "NASDAQ 100",
+    "company": "Crowdstrike Holdings Inc",
+    "question": "Predict Crowdstrike Holdings Inc (CRWD)'s Total Current Assets for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-25"
+  },
+  {
+    "taskId": 5803,
+    "index": "NASDAQ 100",
+    "company": "Palantir Technologies Inc",
+    "question": "Forecast Palantir Technologies Inc (PLTR)'s EBITDA Margin for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-3"
+  },
+  {
+    "taskId": 5811,
+    "index": "NASDAQ 100",
+    "company": "Diamondback Energy Inc",
+    "question": "Based on historical data, forecast Diamondback Energy Inc (FANG)'s Equity Ratio for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-3"
+  },
+  {
+    "taskId": 6285,
+    "index": "Nikkei 225",
+    "company": "Nissan Chemical Corp",
+    "question": "What will Nissan Chemical Corp (4021)'s Interest Coverage Ratio (Net Income) be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-10"
+  },
+  {
+    "taskId": 5866,
+    "index": "Nikkei 225",
+    "company": "NH Foods Ltd",
+    "question": "Forecast NH Foods Ltd (2282)'s Gross Margin for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 5929,
+    "index": "Nikkei 225",
+    "company": "Teijin Ltd",
+    "question": "What is your projection for Teijin Ltd (3401)'s Profit Margin in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6265,
+    "index": "Nikkei 225",
+    "company": "Denka Co Ltd",
+    "question": "As a financial analyst, predict Denka Co Ltd (4061)'s Total Liabilities for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-10"
+  },
+  {
+    "taskId": 5903,
+    "index": "Nikkei 225",
+    "company": "ITOCHU Corp",
+    "question": "Analyze and predict ITOCHU Corp (8001)'s Cash From Operations for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 5859,
+    "index": "Nikkei 225",
+    "company": "Mitsubishi Corp",
+    "question": "Analyze and predict Mitsubishi Corp (8058)'s Operating Income for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 6300,
+    "index": "Nikkei 225",
+    "company": "Daikin Industries Ltd",
+    "question": "Using available financial data, estimate Daikin Industries Ltd (6367)'s Current Ratio for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-11"
+  },
+  {
+    "taskId": 5912,
+    "index": "Nikkei 225",
+    "company": "Konica Minolta Inc",
+    "question": "As a financial analyst, predict Konica Minolta Inc (4902)'s EBITDA Margin for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 5913,
+    "index": "Nikkei 225",
+    "company": "Mitsubishi Motors Corp",
+    "question": "Provide your estimate for Mitsubishi Motors Corp (7211)'s Depreciation & Amortization in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 5865,
+    "index": "Nikkei 225",
+    "company": "NH Foods Ltd",
+    "question": "What will NH Foods Ltd (2282)'s Operating Margin be in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 6429,
+    "index": "S&P 500",
+    "company": "NetApp Inc",
+    "question": "Provide your estimate for NetApp Inc (NTAP)'s EBITDA in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-20"
+  },
+  {
+    "taskId": 6240,
+    "index": "S&P 500",
+    "company": "Dell Technologies Inc",
+    "question": "Analyze and predict Dell Technologies Inc (DELL)'s Cash from Investing Activities for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-25"
+  },
+  {
+    "taskId": 6075,
+    "index": "S&P 500",
+    "company": "Humana Inc",
+    "question": "Predict Humana Inc (HUM)'s R&D Expense for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6405,
+    "index": "S&P 500",
+    "company": "Keysight Technologies Inc",
+    "question": "Based on historical data, forecast Keysight Technologies Inc (KEYS)'s Interest Coverage Ratio (Net Income) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-18"
+  },
+  {
+    "taskId": 5952,
+    "index": "S&P 500",
+    "company": "Williams Cos Inc/The",
+    "question": "Using available financial data, estimate Williams Cos Inc/The (WMB)'s Profit Margin for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-3"
+  },
+  {
+    "taskId": 6048,
+    "index": "S&P 500",
+    "company": "Marathon Petroleum Corp",
+    "question": "Provide your estimate for Marathon Petroleum Corp (MPC)'s Asset Turnover in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 6410,
+    "index": "S&P 500",
+    "company": "Jacobs Solutions Inc",
+    "question": "Forecast Jacobs Solutions Inc (J)'s R&D Expense for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-16",
+    "expectedAnswerReleaseDate": "2025-11-18"
+  },
+  {
+    "taskId": 6010,
+    "index": "S&P 500",
+    "company": "Stanley Black & Decker Inc",
+    "question": "Based on historical data, forecast Stanley Black & Decker Inc (SWK)'s Cash from Financing Activities for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-4"
+  },
+  {
+    "taskId": 6232,
+    "index": "S&P 500",
+    "company": "Agilent Technologies Inc",
+    "question": "Predict Agilent Technologies Inc (A)'s Liability-to-Assets Ratio for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-23",
+    "expectedAnswerReleaseDate": "2025-11-24"
+  },
+  {
+    "taskId": 6076,
+    "index": "S&P 500",
+    "company": "Humana Inc",
+    "question": "Provide your estimate for Humana Inc (HUM)'s Interest Coverage Ratio (EBIT) in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-5"
+  },
+  {
+    "taskId": 6372,
+    "index": "STI",
+    "company": "Sembcorp Industries Ltd",
+    "question": "Analyze and predict Sembcorp Industries Ltd (U96)'s Total Assets for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6360,
+    "index": "STI",
+    "company": "Singapore Telecommunications Ltd",
+    "question": "Provide your estimate for Singapore Telecommunications Ltd (Z74)'s Cash From Operations in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6368,
+    "index": "STI",
+    "company": "SATS Ltd",
+    "question": "Analyze and predict SATS Ltd (S58)'s Total Assets for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-13"
+  },
+  {
+    "taskId": 6362,
+    "index": "STI",
+    "company": "Singapore Telecommunications Ltd",
+    "question": "Predict Singapore Telecommunications Ltd (Z74)'s Cost of Revenue for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-12"
+  },
+  {
+    "taskId": 6125,
+    "index": "STI",
+    "company": "United Overseas Bank Ltd",
+    "question": "Estimate United Overseas Bank Ltd (U11)'s Interest Coverage Ratio (EBIT) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  },
+  {
+    "taskId": 6126,
+    "index": "STI",
+    "company": "Frasers Logistics & Commercial Trust",
+    "question": "Using available financial data, estimate Frasers Logistics & Commercial Trust (BUOU)'s Return on Assets (RoA) for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-7"
+  },
+  {
+    "taskId": 6373,
+    "index": "STI",
+    "company": "Sembcorp Industries Ltd",
+    "question": "Provide your estimate for Sembcorp Industries Ltd (U96)'s Interest Coverage Ratio (EBIT) in 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-14"
+  },
+  {
+    "taskId": 6369,
+    "index": "STI",
+    "company": "Singapore Airlines Ltd",
+    "question": "Estimate Singapore Airlines Ltd (C6L)'s EBIT for 2025 Q3.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-13"
+  },
+  {
+    "taskId": 6357,
+    "index": "STI",
+    "company": "Yangzijiang Shipbuilding Holdings Ltd",
+    "question": "Forecast Yangzijiang Shipbuilding Holdings Ltd (BS6)'s Total Current Liabilities for the Q3 of 2025.",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-9",
+    "expectedAnswerReleaseDate": "2025-11-11"
+  },
+  {
+    "taskId": 6117,
+    "index": "STI",
+    "company": "DBS Group Holdings Ltd",
+    "question": "What is your projection for DBS Group Holdings Ltd (D05)'s Asset Turnover in 2025 Q3?",
+    "forecastType": "Recurrent",
+    "forecastEnd": "2025-11-2",
+    "expectedAnswerReleaseDate": "2025-11-6"
+  }
+]
