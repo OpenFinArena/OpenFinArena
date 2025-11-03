@@ -22,7 +22,7 @@
       span.bold q
       span .
     .desc.formula.italic a = M (q)
-    .desc.m-top-20 For example, “What is the estimated year-over-year GDP growth rate for China in 2025?”.
+    .desc.m-top-20 For example, "What is the estimated year-over-year GDP growth rate for China in 2025?".
   OngingForecasts
   CompletedForecasts(:scoreList="scoreList")
   .section
@@ -54,6 +54,7 @@
     .desc.m-top-20
       span Please use the following subject in your email: 
       span.bold FinDeepForecast-{Method Name}-{Method Type}-{Team Name}-{Organization}
+      span .
     .desc.m-top-20
       span The 
       span.bold Method Name 
@@ -61,9 +62,9 @@
     .desc.m-top-20
       span The 
       span.bold Method Type 
-      span might be “Thinking”、 “Thinking + Search”, “Deep Research” or other types that can best explain the type of your method.
+      span might be "Thinking", "Thinking + Search", "Deep Research" or other types that can best explain the type of your method.
     .desc.m-top-20
-      span If the method type cannot be confirmed or you choose not to disclose it, please indicate "Other."If you have a dedicated logo for your Organization, please attach the logo in the size of 100x100, such as 
+      span If the method type cannot be confirmed or you choose not to disclose it, please indicate "Other". If you have a dedicated logo for your Organization, please attach the logo in the size of 100x100, such as 
       img(src="/images/logo/chatgpt.svg" style="width:25px; height:25px; margin-left:5px; margin-right:5px")
       span for OpenAI, which will be presented in the leaderboard.
 </template>
