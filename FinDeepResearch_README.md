@@ -23,7 +23,7 @@ Formally, given a research task instruction `𝑖` with a desired analytical str
 </div>
 
 <div align="center">
-  <img src="images/findeepresearch_overview.png" width="100%" alt="FinDeepResearch Overview" />
+  <img src="public/images/findeepresearch_overview.png" width="100%" alt="FinDeepResearch Overview" />
 </div>
 
 ## Samples
