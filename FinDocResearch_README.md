@@ -116,7 +116,3 @@ For a more detailed overview of the structure, please refer to this [link](https
 | 🇮🇩 ID | 10 | 20 | 599 | 204 | 383 | PT Harum Energy Tbk, PT Bumi Serpong Damai Tbk |
 
 The whole FinDocResearch dataset for evaluation can be downloaded via the [🤗link](https://huggingface.co/datasets/OpenFinArena/FinDocResearch/blob/main/dataset.csv).
-
-## Contact
-
-The OpenFinArena team is open to collaboration across development, application, and partnership. Whether you have inquiries, technical questions, or are interested in contributing to the evolution of this platform, please join the [OpenFinArena Google Group](https://groups.google.com/g/openfinarena?pli=1) or drop us an email at OpenFinArena@gmail.com.

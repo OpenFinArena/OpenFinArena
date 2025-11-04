@@ -50,7 +50,3 @@ Formally, given a research task instruction `𝑖` with a desired analytical str
 </ul>
 
 The whole FinDeepResearch dataset for evaluation can be downloaded via the [🤗link](https://huggingface.co/datasets/OpenFinArena/FinDeepResearch/blob/main/input_analytical_structure.csv).
-
-## Contact
-
-The OpenFinArena team is open to collaboration across development, application, and partnership. Whether you have inquiries, technical questions, or are interested in contributing to the evolution of this platform, please join the [OpenFinArena Google Group](https://groups.google.com/g/openfinarena?pli=1) or drop us an email at OpenFinArena@gmail.com.
