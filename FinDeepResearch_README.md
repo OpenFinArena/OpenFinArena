@@ -7,7 +7,7 @@ The data is then used for metric calculation, followed by strategic summarizatio
 Comprising **64 listed companies from 8 financial markets** and a total of **15,808 grading items**, FinDeepResearch provides a robust framework for evaluating the ability of advanced AI techniques (e.g., deep research agents) to generate corporate financial analysis reports that simultaneously adhere to a **systematic analytical structure (rigor)** and produce **specific, accurate claims (precision)**.
 
 <p align="center">
-  <a href="https://openfinarena.com/"><b>🏠︎ Homepage</b></a> |
+  <a href="https://openfinarena.com/fin-deep-research"><b>📊 Benchmark Page</b></a> |
   <a href="https://www.arxiv.org/abs/2510.13936"><b>📑 Arxiv Paper</b></a> |
   <a href="https://huggingface.co/datasets/OpenFinArena/FinDeepResearch/blob/main/input_analytical_structure.csv"><b>🤗 Dataset</b></a>
 </p>

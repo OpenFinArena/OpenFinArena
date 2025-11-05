@@ -2,6 +2,10 @@
 
 The **OpenFinArena** platform aims to gauge the proficiency of advanced Language Models (LLMs) and Agents in executing rigorous financial analysis and forecasting, establishing a robust standard for their development as **professional financial analysts and economists**. OpenFinArena offers a comprehensive suite of challenges, spanning financial document analysis, corporate financial analysis, financial nowcasting, and future forecasting.
 
+## 🛠️ Getting Started
+
+Visit our [**homepage**](https://openfinarena.com/) for detailed documentation, datasets, and submission guidelines.
+
 ## 🎯 Explore Our Challenges
 OpenFinArena offers three comprehensive challenges that test different aspects of the capabilities of LLMs in the finance domain. Click on each challenge below to dive into the details:
 

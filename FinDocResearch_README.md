@@ -7,7 +7,7 @@ FinDocResearch features **80 listed companies** from **8 financial markets**, in
 By simulating the workflows of professional research analysts, FinDocResearch establishes a novel benchmark for assessing cross-document research methodologies in financial AI.
 
 <p align="center">
-  <a href="https://openfinarena.com/"><b>🏠︎ Homepage</b></a> |
+  <a href="https://openfinarena.com/fin-doc-research"><b>📊 Benchmark Page</b></a> |
   <a href="https://finddr2025.github.io/"><b>🪐 Grand Challenge @ ICAIF 25</b></a> |
   <a href=""><b>📑 Technical Report (Coming Soon)</b></a> |
   <a href="https://huggingface.co/datasets/OpenFinArena/FinDocResearch/blob/main/dataset.csv"><b>🤗 Dataset</b></a>
