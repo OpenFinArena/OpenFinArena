@@ -8,7 +8,7 @@
           v-for="item in FORECAST_TABS"
           :key="item.value"
           :class="{'tab-active': item.value === activeTab}"
-          @click="activeTab = item.value"
+          @click="tabSwitch(item.value)"
         ) {{item.label}}
 
     //- Leaderboard
@@ -21,8 +21,9 @@
       v-bind="filterLeaderboardStates[activeTab]"
       @update="newState => handleLeaderboardFilterUpdate(activeTab, newState)"
     )
-    LeaderboardChart(ref="chartRef" :scoreList="scoreList")
-    LeaderboardTable(:scoreList="scoreList")
+    template(v-if="showLeaderboard" )
+      LeaderboardChart(ref="chartRef" :scoreList="activeTab === 'corporate' ? filteredCorporateData : filteredMacroData")
+      LeaderboardTable(:scoreList="activeTab === 'corporate' ? filteredCorporateData : filteredMacroData")
 
     //- Samples
     template(v-if="false")
@@ -58,28 +59,28 @@
 import {
   ref,
   reactive,
+  onBeforeMount,
   onMounted,
   onBeforeUnmount,
   type ComponentPublicInstance,
-  nextTick
+  nextTick,
+  computed
 } from 'vue'
 import { FORECAST_TABS } from '@/data/constant'
+import { useWeekInfo } from '@/plugins/useWeekInfo'
 
 interface ScoreItem {
   [key: string]: any
 }
-const props = withDefaults(
-  defineProps<{
-    scoreList: ScoreItem[]
-  }>(),
-  {
-    scoreList: () => []
-  }
-)
+
+const corporateData = ref<ScoreItem[]>([])
+const macroData = ref<ScoreItem[]>([])
+
 const chartRef = ref<ComponentPublicInstance<{
   renderChart: () => void
 }> | null>(null)
 const activeTab = ref<'corporate' | 'macroeconomic'>('corporate')
+const showLeaderboard = ref(false)
 
 const filterSampleStates = reactive({
   corporate: {
@@ -158,32 +159,70 @@ const macroSamplesData = [
   }
 ]
 
-const scheduledData = [
-  {
-    no: 1,
-    methodName: 'GPT-5',
-    methodType: 'Thinking',
-    organization: 'OpenAI',
-    team: 'Official',
-    scheduledForecastDate: '2025-10-25'
-  },
-  {
-    no: 2,
-    methodName: 'PIKE-Report',
-    methodType: 'Thinking + Search',
-    organization: 'Microsoft Research Asia',
-    team: 'Token Fund',
-    scheduledForecastDate: '2025-10-25'
-  },
-  {
-    no: 3,
-    methodName: 'Gemini 2.5 Pro',
-    methodType: 'Search',
-    organization: 'Google',
-    team: 'Token Fund',
-    scheduledForecastDate: '2025-10-25'
-  }
-]
+const filteredCorporateData = computed<ScoreItem[]>(() => {
+  let { period, time, selectedIndex, type } = filterLeaderboardStates.corporate
+  selectedIndex = selectedIndex.toLowerCase().replace(' ', '')
+  type = type.toLowerCase()
+
+  const filtered = corporateData.value.filter(item => {
+    let matchTime = true
+
+    const matchType =
+      type === 'overall' || item.forecastType?.toLowerCase() === type
+
+    if (period === 'weekly' && time) {
+      matchTime = item.week === time
+    } else if (period === 'monthly' && time) {
+      const { months } = useWeekInfo(item.week)
+      matchTime = months.includes(time)
+    }
+
+    if (matchTime && matchType) {
+      item.score = item[selectedIndex]
+      return true
+    }
+
+    return false
+  })
+
+  return filtered
+})
+
+const filteredMacroData = computed<ScoreItem[]>(() => {
+  let { period, time, selectedCountry, type } =
+    filterLeaderboardStates.macroeconomic
+  selectedCountry = selectedCountry.toLowerCase().replace(' ', '')
+  type = type.toLowerCase()
+
+  const filtered = macroData.value.filter(item => {
+    let matchTime = true
+
+    const matchType =
+      type === 'overall' || item.forecastType?.toLowerCase() === type
+
+    if (period === 'weekly' && time) {
+      matchTime = item.week === time
+    } else if (period === 'monthly' && time) {
+      const { months } = useWeekInfo(item.week)
+      matchTime = months.includes(time)
+    }
+
+    if (matchTime && matchType) {
+      item.score = item[selectedCountry]
+      return true
+    }
+
+    return false
+  })
+
+  return filtered
+})
+
+onBeforeMount(async () => {
+  await handleCorporateData()
+  await handleMacroData()
+  showLeaderboard.value = true
+})
 
 onMounted(() => {
   nextTick(() => {
@@ -191,9 +230,24 @@ onMounted(() => {
     window.addEventListener('resize', handleResize)
   })
 })
+
 onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize)
 })
+
+const handleCorporateData = async () => {
+  const res = await fetch('/data/corporateLeaderboard.json')
+  if (!res.ok) throw new Error(`HTTP ${res.statusText}`)
+
+  corporateData.value = await res.json()
+}
+
+const handleMacroData = async () => {
+  const res = await fetch('/data/macroLeaderboard.json')
+  if (!res.ok) throw new Error(`HTTP ${res.statusText}`)
+
+  macroData.value = await res.json()
+}
 
 const handleResize = () => {
   getStickyTop()
@@ -206,21 +260,31 @@ const getStickyTop = () => {
     `${headerHeight}px`
   )
 }
+
 const handleSampleFilterUpdate = (
   tab: 'corporate' | 'macroeconomic',
   newState: any
 ) => {
   filterSampleStates[tab] = { ...filterSampleStates[tab], ...newState }
 }
-const handleLeaderboardFilterUpdate = (
+
+const handleLeaderboardFilterUpdate = async (
   tab: 'corporate' | 'macroeconomic',
   newState: any
 ) => {
-  // console.log(newState)
   filterLeaderboardStates[tab] = {
     ...filterLeaderboardStates[tab],
     ...newState
   }
+
+  await nextTick()
+  chartRef?.value?.renderChart()
+}
+
+const tabSwitch = async (tab: 'corporate' | 'macroeconomic') => {
+  activeTab.value = tab
+  await nextTick()
+  chartRef?.value?.renderChart()
 }
 </script>
 

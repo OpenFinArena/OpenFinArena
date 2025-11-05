@@ -96,8 +96,8 @@ interface ForecastItem {
   expectedAnswerReleaseDate: string
 }
 
-const corporateSamplesData = ref<ForecastItem[]>([])
-const macroSamplesData = ref<ForecastItem[]>([])
+const corporateData = ref<ForecastItem[]>([])
+const macroData = ref<ForecastItem[]>([])
 const activeTab = ref<'corporate' | 'macroeconomic'>('corporate')
 
 const filterStates = reactive({
@@ -116,7 +116,7 @@ const filteredCorporateData = computed<ForecastItem[]>(() => {
   selectedIndex = selectedIndex.toLowerCase()
   type = type.toLowerCase()
 
-  const filtered = corporateSamplesData.value.filter(item => {
+  const filtered = corporateData.value.filter(item => {
     const matchIndex =
       selectedIndex === 'overall' || item.index?.toLowerCase() === selectedIndex
     const matchType =
@@ -137,7 +137,7 @@ const filteredMacroData = computed<ForecastItem[]>(() => {
   selectedCountry = selectedCountry.toLowerCase()
   type = type.toLowerCase()
 
-  const filtered = macroSamplesData.value.filter(item => {
+  const filtered = macroData.value.filter(item => {
     const matchIndex =
       selectedCountry === 'overall' ||
       item.market?.toLowerCase() === selectedCountry
@@ -185,14 +185,14 @@ const handleCorporateData = async () => {
   const res = await fetch('/data/corporateSamples.json')
   if (!res.ok) throw new Error(`HTTP ${res.statusText}`)
 
-  corporateSamplesData.value = await res.json()
+  corporateData.value = await res.json()
 }
 
 const handleMacroData = async () => {
   const res = await fetch('/data/macroSamples.json')
   if (!res.ok) throw new Error(`HTTP ${res.statusText}`)
 
-  macroSamplesData.value = await res.json()
+  macroData.value = await res.json()
 }
 
 const handleScheduledData = () => {

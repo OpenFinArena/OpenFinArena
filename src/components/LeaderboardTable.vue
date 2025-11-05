@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-table.m-top-20(:data="scoreList" border)
+  el-table.m-top-20(:data="sortedList" border)
     el-table-column(label="Rank" width="70" align="center")
       template(#default="scope")
         .rank
@@ -16,12 +16,15 @@
           span {{ row.organization }}
     el-table-column(prop="score" label="Score")
       template(#default="{row}")
-        span.bold {{ row.score ? Number(row.score).toFixed(1) : '--' }}
+        span.bold(v-if="!isNaN(row.score)") {{ Number(row.score).toFixed(1) }}
+        span(v-else) {{ row.score }}
     el-table-column(prop="team" label="Team")
     el-table-column(prop="submittedDate" label="Submitted Date")
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface ScoreItem {
   [key: string]: any
 }
@@ -34,4 +37,10 @@ const props = withDefaults(
     scoreList: () => []
   }
 )
+
+const sortedList = computed(() => {
+  return props.scoreList?.sort((a, b) => {
+    return Number(b.score) - Number(a.score)
+  })
+})
 </script>

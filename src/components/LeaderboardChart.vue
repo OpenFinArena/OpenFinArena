@@ -5,7 +5,7 @@
 
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, ref } from 'vue'
-import * as echarts from 'echarts';
+import * as echarts from 'echarts'
 
 interface ScoreItem {
   [key: string]: any
@@ -37,18 +37,27 @@ const handleResize = () => {
 }
 
 // 转换函数：安全转换为数字，没值就为0
-const toNum = (val: unknown): number => (val === undefined || val === null || val === '' ? 0 : Number(val) || 0);
+const toNum = (val: unknown): number =>
+  val === undefined || val === null || val === '' ? 0 : Number(val) || 0
 
 function renderChart() {
-  if (!chart) return;
+  if (!chart) return
 
-  const legend = [{ label: 'LLM (Thinking)', value: 'Thinking' }, { label: 'LLM (Thinking + Search)', value: 'Thinking + Search' }, { label: 'Deep Research', value: 'Deep Research' }]
-  const categoryData = [...new Set(props.scoreList.map((item: ScoreItem) => item.method))] as string[];
+  const legend = [
+    { label: 'LLM (Thinking)', value: 'Thinking' },
+    { label: 'LLM (Thinking + Search)', value: 'Thinking + Search' },
+    { label: 'Deep Research', value: 'Deep Research' }
+  ]
+  const categoryData = [
+    ...new Set(props.scoreList.map((item: ScoreItem) => item.method))
+  ] as string[]
   const colors = ['#26C6DA', '#FFB74D', '#64B5F6']
   const seriesData = categoryData.map(category => {
     const data: { [key: string]: number | string } = {}
 
-    const methodList = props.scoreList.filter((item: ScoreItem) => item.method === category)
+    const methodList = props.scoreList.filter(
+      (item: ScoreItem) => item.method === category
+    )
     methodList.forEach((item: ScoreItem) => {
       data.method = item.method
       data[item.type] = item.score
@@ -61,7 +70,7 @@ function renderChart() {
   const dataGroups = seriesData.map(item => [
     toNum(item['Thinking']) ?? 0,
     toNum(item['Thinking + Search']) ?? 0,
-    toNum(item['Deep Research']) ?? 0,
+    toNum(item['Deep Research']) ?? 0
   ])
 
   // 计算每组最大值（用于确定柱子顶端位置）
@@ -69,8 +78,8 @@ function renderChart() {
 
   // 归一化处理（让堆叠总高度等于最大值）
   const normalizedData = dataGroups.map((group, index) => {
-    const sum = group.reduce((acc, val) => acc + val, 0);
-    const max = maxValues[index] ?? 0;
+    const sum = group.reduce((acc, val) => acc + val, 0)
+    const max = maxValues[index] ?? 0
     const ratio = sum > 0 ? max / sum : 1
     return group.map(val => val * ratio)
   })
@@ -119,7 +128,7 @@ function renderChart() {
         name: item.method,
         value: [item.method, maxValues[index]],
         symbol: `image://${item.src}`,
-        symbolSize: [logoSize, logoSize],
+        symbolSize: [logoSize, logoSize]
       }
     }),
     symbolOffset: [0, logoOffsetY],
@@ -142,11 +151,13 @@ function renderChart() {
         let text = `${categoryData[index]}<br/>`
 
         params.forEach((param: any) => {
-          const segIndex = legend.findIndex(item => item.label === param.seriesName)
+          const segIndex = legend.findIndex(
+            item => item.label === param.seriesName
+          )
           if (segIndex >= 0) {
             const orig = dataGroups[index]?.[segIndex] ?? 0
             if (orig) {
-              text += `${param.marker} ${param.seriesName}: ${orig.toFixed(1)}<br/>`;
+              text += `${param.marker} ${param.seriesName}: ${orig.toFixed(1)}<br/>`
             }
           }
         })
@@ -158,22 +169,22 @@ function renderChart() {
       top: '5%',
       textStyle: {
         color: '#333',
-        fontSize: 12,
+        fontSize: 12
       },
-      data: legend.map(item => item.label),
+      data: legend.map(item => item.label)
     },
     grid: {
       left: '5%',
       right: '5%',
       bottom: '10%',
       top: '20%',
-      containLabel: true,
+      containLabel: true
     },
     xAxis: {
       type: 'category',
       data: categoryData,
       axisLabel: { rotate: 25, color: '#666', fontSize: 12 },
-      axisLine: { lineStyle: { color: '#ccc' } },
+      axisLine: { lineStyle: { color: '#ccc' } }
     },
     yAxis: {
       type: 'value',
@@ -182,7 +193,7 @@ function renderChart() {
       nameGap: 40,
       nameTextStyle: { color: '#888', fontSize: 12 },
       axisLabel: { color: '#666' },
-      splitLine: { lineStyle: { color: '#eee' } },
+      splitLine: { lineStyle: { color: '#eee' } }
     },
     series
   }

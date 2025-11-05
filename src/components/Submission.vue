@@ -24,10 +24,10 @@
     .desc.m-top-20(v-if="showMethodType")
       span The 
       span.bold Method Type 
-      span might be “Thinking”, “Thinking + Search”, “Deep Research” or other types that can best explain the type of your method. If the method type cannot be confirmed or you choose not to disclose it, please indicate "Other". 
+      span might be "Thinking", "Thinking + Search", "Deep Research" or other types that can best explain the type of your method. If the method type cannot be confirmed or you choose not to disclose it, please indicate "Other". 
     .desc.m-top-20
       span If you have a dedicated logo for your Organization, please attach the logo in the size of 100x100, such as 
-      img(src="/images/logo/chatgpt.svg" style="width:25px; height:25px; margin-left:5px; margin-right:5px")
+      img(src="/images/logo/openai.svg" style="width:25px; height:25px; margin-left:5px; margin-right:5px")
       span for OpenAI, which will be presented in the leaderboard.
 </template>
 

@@ -232,7 +232,7 @@ export const scoreData: ScoreItem[] = [
     au: 64.4,
     ind: 57.9,
     my: 65.7,
-    model: 'chatgpt'
+    model: 'openai'
   },
   {
     method: 'SilverSight Agent',
@@ -263,7 +263,7 @@ export const scoreData: ScoreItem[] = [
     au: 58.1,
     ind: 54.5,
     my: 63.6,
-    model: 'chatgpt'
+    model: 'openai'
   },
   {
     method: 'afinit_fin_report_agent_v2',
@@ -312,7 +312,7 @@ export const scoreData: ScoreItem[] = [
     au: 45.8,
     ind: 49.5,
     my: 55.4,
-    model: 'chatgpt'
+    model: 'openai'
   },
   {
     method: 'GeminiFlashRAG',

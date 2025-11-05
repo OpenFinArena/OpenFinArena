@@ -26,6 +26,7 @@
         v-model="selectedTime"
         :type="pickerType"
         :format="pickerFormat"
+        :value-format="pickerValueFormat"
         :placeholder="`Select ${selectedPeriod.charAt(0).toUpperCase() + selectedPeriod.slice(1)}`"
         style="margin-left: 24px;"
       )
@@ -162,6 +163,18 @@ const pickerFormat = computed<string>(() => {
       return 'YYYY-MM'
   }
 })
+const pickerValueFormat = computed<string>(() => {
+  switch (selectedPeriod.value) {
+    case 'weekly':
+      return 'YYYY-[W]ww'
+    case 'monthly':
+      return 'YYYY-MM'
+    case 'yearly':
+      return 'YYYY'
+    default:
+      return 'YYYY-MM'
+  }
+})
 
 const emit = defineEmits<{
   (
@@ -179,7 +192,7 @@ const emit = defineEmits<{
 }>()
 
 const activeFilters = computed(() => {
-  let time = ''
+  let time = selectedTime.value
 
   if (selectedPeriod.value === 'overall') {
     time = 'overall'
@@ -254,8 +267,10 @@ watch(
 )
 
 const periodChange = (value: string) => {
-  selectedPeriod.value = value
-  selectedTime.value = ''
+  if (value !== selectedPeriod.value) {
+    selectedPeriod.value = value
+    selectedTime.value = ''
+  }
 }
 </script>
 
