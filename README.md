@@ -15,19 +15,22 @@ Assess the capability for conducting rigorous **corporate financial analysis** f
 Verify the accuracy of **financial forecasts for financial metrics and ratios** of listed companies from **9 stock exchanges** and broader **macroeconomic indicators** across **8 countries/regions**.
 
 ## Organizers
-<p align="left">
-  <a href="https://www.nus.edu.sg/"><img src="public/images/organizer/nus.jpg" width="120" height="120"></a>
-  <a href="https://www.nextcenter.org/"><img src="public/images/organizer/next.png" width="120" height="120"></a>
-  <a href="https://www.aidf.nus.edu.sg/"><img src="public/images/organizer/aidf.jpg" width="120" height="120"></a>
-  <a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="120" height="120"></a>
-  <a href="https://www.bloomberg.com/asia"><img src="public/images/organizer/bloomberg.jpg" width="120" height="120"></a>
-  <a href="https://www.hfut.edu.cn/"><img src="public/images/organizer/hfut.jpeg" width="120" height="120"></a>
-  <a href="https://ustc.edu.cn/"><img src="public/images/organizer/ustc.jpg" width="120" height="120"></a>
-</p>
+
+<table>
+  <tr>
+    <td align="center"><a href="https://www.nus.edu.sg/"><img src="public/images/organizer/nus.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.nextcenter.org/"><img src="public/images/organizer/next.png" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.aidf.nus.edu.sg/"><img src="public/images/organizer/aidf.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.bloomberg.com/asia"><img src="public/images/organizer/bloomberg.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.hfut.edu.cn/"><img src="public/images/organizer/hfut.jpeg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://ustc.edu.cn/"><img src="public/images/organizer/ustc.jpg" width="120" height="120"></a></td>
+  </tr>
+</table>
 
 ## Sponsors
-<a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="120" height="120"></a>
+<a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="150" vspace="10">
+
 
 ## Contact
-
 The OpenFinArena team is open to collaboration across development, application, and partnership. Whether you have inquiries, technical questions, or are interested in contributing to the evolution of this platform, please join the [OpenFinArena Google Group](https://groups.google.com/g/openfinarena?pli=1) or drop us an email at OpenFinArena@gmail.com.
