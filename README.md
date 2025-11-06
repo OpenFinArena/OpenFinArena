@@ -32,9 +32,6 @@ Verify the accuracy of **financial forecasts for financial metrics and ratios** 
   </tr>
 </table>
 
-## Sponsors
-<a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="150" vspace="10">
-
 
 ## Contact
 The OpenFinArena team is open to collaboration across development, application, and partnership. Whether you have inquiries, technical questions, or are interested in contributing to the evolution of this platform, please join the [OpenFinArena Google Group](https://groups.google.com/g/openfinarena?pli=1) or drop us an email at OpenFinArena@gmail.com.
