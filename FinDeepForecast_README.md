@@ -3,7 +3,7 @@
 The current paradigm for evaluating Large Language Models (LLMs) and AI Agents in financial analysis is constrained by its reliance on **static, historical datasets**. This approach primarily assesses a model's capacity to interpret past events rather than forecast future outcomes. This methodological misalignment with real-world practice fails to simulate the **dynamic, looking-forward** environments that analysts and economists face. To address this critical gap, we introduce **FinDeepForecast**, a live benchmark for evaluating the **genuine financial forecasting capabilities** of LLMs and AI agents. It challenges models to make time-sensitive predictions on the future **financial metrics and ratios of listed companies from 9 global stock exchanges**, as well as **broader macroeconomic indicators across 8 countries/regions**. Crucially, the accuracy of these forecasts can only be verified by future outcomes, providing a dynamic and realistic assessment of model performance.
 
 <p align="center">
-  <a href="https://openfinarena.com/fin-deep-forecast/"><b>📊 Benchmark Page</b></a> |
+  <a href="https://openfinarena.com/fin-deep-forecast/"><b>📊 Project Website</b></a> |
   <a href="http://arxiv.org/abs/2601.05039"><b>📑 Arxiv Paper</b></a>
 </p>
 
