@@ -4,7 +4,7 @@ The current paradigm for evaluating Large Language Models (LLMs) and AI Agents i
 
 <p align="center">
   <a href="https://openfinarena.com/fin-deep-forecast/"><b>📊 Benchmark Page</b></a> |
-  <a href=""><b>📑 Technical Report (Coming Soon)</b></a>
+  <a href="http://arxiv.org/abs/2601.05039"><b>📑 Arxiv Paper</b></a>
 </p>
 
 ## Task
