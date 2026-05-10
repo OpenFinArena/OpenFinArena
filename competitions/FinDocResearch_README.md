@@ -1,9 +1,9 @@
 # Financial Document Research (FinDocResearch)
 
-The accurate and timely interpretation of corporate financial disclosures, such as financial statements, is critical for informed decision-making (e.g., investment) in finance. 
-However, the complexity and knowledge-intensive nature of these documents often render their analysis a time-consuming and laborious process. The application of Artificial Intelligence (AI) techniques presents a transformative opportunity to automate this process to provide actionable intelligence from these documents. 
-**Financial Document Research (FinDocResearch)** is therefore designed to evaluate the capabilities of advanced AI techniques, such as LLMs and Agents, in **comprehensively analyzing a listed company's multi-year annual reports and producing a rigorous, structured research report**. 
-FinDocResearch features **80 listed companies** from **8 financial markets**, including United States (US), United Kingdom (UK), China(CN), Hong Kong (HK), Australia (AU), Singapore (SG), Malaysia (MY) and Indonesia (ID). 
+The accurate and timely interpretation of corporate financial disclosures, such as financial statements, is critical for informed decision-making (e.g., investment) in finance.
+However, the complexity and knowledge-intensive nature of these documents often render their analysis a time-consuming and laborious process. The application of Artificial Intelligence (AI) techniques presents a transformative opportunity to automate this process to provide actionable intelligence from these documents.
+**Financial Document Research (FinDocResearch)** is therefore designed to evaluate the capabilities of advanced AI techniques, such as LLMs and Agents, in **comprehensively analyzing a listed company's multi-year annual reports and producing a rigorous, structured research report**.
+FinDocResearch features **80 listed companies** from **8 financial markets**, including United States (US), United Kingdom (UK), China(CN), Hong Kong (HK), Australia (AU), Singapore (SG), Malaysia (MY) and Indonesia (ID).
 By simulating the workflows of professional research analysts, FinDocResearch establishes a novel benchmark for assessing cross-document research methodologies in financial AI.
 
 <p align="center">
@@ -32,7 +32,7 @@ The desired structure of the research report are as follows:
       <li>Mission &amp; Vision</li>
     </ul>
   </li>
-  
+
   <li><strong>Financial Performance:</strong> This section presents a detailed analysis of the company's financial health, including:
     <ul>
       <li>Income Statement</li>
@@ -42,7 +42,7 @@ The desired structure of the research report are as follows:
       <li>Operating Performance</li>
     </ul>
   </li>
-  
+
   <li><strong>Business Analysis:</strong> This section provides a summary and analysis of a company's business performance and strategies, including:
     <ul>
       <li>Profitability Analysis</li>
@@ -50,7 +50,7 @@ The desired structure of the research report are as follows:
       <li>Business Competitiveness</li>
     </ul>
   </li>
-  
+
   <li><strong>Risk Factors:</strong> This section identifies and discusses the principal risks the company faces, including:
     <ul>
       <li>Market Risks</li>
@@ -59,14 +59,14 @@ The desired structure of the research report are as follows:
       <li>Compliance Risks</li>
     </ul>
   </li>
-  
+
   <li><strong>Corporate Governance:</strong> This section outlines the company's governance framework, including:
     <ul>
       <li>Board Composition</li>
       <li>Internal Controls</li>
     </ul>
   </li>
-  
+
   <li><strong>Future Outlook:</strong> This section provides management's projections and strategic plans for the future, including:
     <ul>
       <li>Strategic Direction</li>
@@ -116,3 +116,69 @@ For a more detailed overview of the structure, please refer to this [link](https
 | 🇮🇩 ID | 10 | 20 | 599 | 204 | 383 | PT Harum Energy Tbk, PT Bumi Serpong Damai Tbk |
 
 The whole FinDocResearch dataset for evaluation can be downloaded via the [🤗link](https://huggingface.co/datasets/OpenFinArena/FinDocResearch/blob/main/dataset.csv).
+
+## Evaluation
+
+### Env Preparation
+
+```bash
+conda create -n findocresearch python=3.12
+conda activate findocresearch
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the project root and add your OpenAI API key:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+### How to Evaluate a Prediction
+
+The evaluation process consists of 2 main steps
+1. Context extraction:
+   1. Extracts structured information from markdown files into a standardized JSON format that can be compared against ground truth data.
+   2. Format score assessing section headers, subsection headers and markdown tables is given in the end.
+2. Evaluation:
+   1. Evaluates extracted predictions against ground truth data using different scoring methods based on question types.
+   2. Content scores of 4 categories are given:
+      - **Overall**: The final weighted score across all companies and question types
+      - **Country-specific scores**: Individual scores for each market/location:
+        - USA, UK, China, Hong Kong, Australia, Singapore, Malaysia, Indonesia
+      - **Section-specific scores**: Individual scores for each section:
+        - S1, S2, S3, S4, S5, S6
+      - **Level-specific scores**: Individual scores for each level:
+        - level1: Recognition
+        - level2: Calculation
+        - level3: Abstraction
+        - level4: Interpretation
+
+### Ground Truth
+
+Ground truth files are **not provided** in this repository due to future competition constraints.
+
+To run the evaluation script, place your own sample markdown files under:
+
+```
+data/ground_truth/findocresearch_track/markdown/
+```
+
+Each file should correspond to a company in the dataset (e.g., `test001.md`). With sample files in place, the evaluation pipeline will be fully executable.
+
+### Usage
+
+```bash
+PYTHONPATH='.' python evaluation/run.py \
+    --track findocresearch \
+    --prediction_folder data/predictions/samples/markdown
+```
+**Parameters**:
+- `--track`: `findocresearch` or `findeepresearch`
+- `--prediction_folder`: Path to folder containing markdown prediction files. Each file should be the generated research report in markdown format following the analytical structure specified for that company, with the file name matching the input name exactly (e.g., `test001.md`).
+- `--model`: llm model to use for extraction (default: `gpt-4.1`)
+- `--extraction_only`: If to skip evaluation and only run extraction
+- `--evaluation_only`: If to skip extraction and only run evaluation
+- `--overwrite`: If to overwrite existing results
+
+**Env Variables**:
+- `TRACE_ENABLED`: Set to `true` to enable llm prompt and response persistence for debugging purpose
