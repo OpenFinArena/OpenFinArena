@@ -22,13 +22,13 @@ Verify the accuracy of **financial forecasts for financial metrics and ratios** 
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.nus.edu.sg/"><img src="public/images/organizer/nus.jpg" width="120" height="120"></a></td>
-    <td align="center"><a href="https://www.nextcenter.org/"><img src="public/images/organizer/next.png" width="120" height="120"></a></td>
-    <td align="center"><a href="https://www.aidf.nus.edu.sg/"><img src="public/images/organizer/aidf.jpg" width="120" height="120"></a></td>
-    <td align="center"><a href="https://www.6estates.com/"><img src="public/images/organizer/6Estates.jpg" width="120" height="120"></a></td>
-    <td align="center"><a href="https://www.bloomberg.com/asia"><img src="public/images/organizer/bloomberg.jpg" width="120" height="120"></a></td>
-    <td align="center"><a href="https://www.hfut.edu.cn/"><img src="public/images/organizer/hfut.jpeg" width="120" height="120"></a></td>
-    <td align="center"><a href="https://ustc.edu.cn/"><img src="public/images/organizer/ustc.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.nus.edu.sg/"><img src="web/public/images/organizer/nus.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.nextcenter.org/"><img src="web/public/images/organizer/next.png" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.aidf.nus.edu.sg/"><img src="web/public/images/organizer/aidf.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.6estates.com/"><img src="web/public/images/organizer/6Estates.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.bloomberg.com/asia"><img src="web/public/images/organizer/bloomberg.jpg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://www.hfut.edu.cn/"><img src="web/public/images/organizer/hfut.jpeg" width="120" height="120"></a></td>
+    <td align="center"><a href="https://ustc.edu.cn/"><img src="web/public/images/organizer/ustc.jpg" width="120" height="120"></a></td>
   </tr>
 </table>
 
