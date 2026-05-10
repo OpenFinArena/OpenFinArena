@@ -1,3 +1,12 @@
 node_modules
 dist
 .history
+
+*.pyc
+.deepeval
+.vscode
+.idea
+.env
+.DS_Store
+.env
+ignore

@@ -9,13 +9,13 @@ Visit our [**homepage**](https://openfinarena.com/) for detailed documentation, 
 ## 🎯 Explore Our Challenges
 OpenFinArena offers three comprehensive challenges that test different aspects of the capabilities of LLMs in the finance domain. Click on each challenge below to dive into the details:
 
-### [**FinDocResearch**](FinDocResearch_README.md)
+### [**FinDocResearch**](competitions/FinDocResearch_README.md)
 Evaluate the ability to comprehensively analyze **multiple financial documents** (i.e., annual reports) of listed companies across **8 financial markets**.
 
-### [**FinDeepResearch**](FinDeepResearch_README.md)
+### [**FinDeepResearch**](competitions/FinDeepResearch_README.md)
 Assess the capability for conducting rigorous **corporate financial analysis** for **listed companies across 8 financial markets** by retrieving and analyzing their associated heterogeneous financial data, such as **company disclosures, financial news, historical stock prices, market indexes**, etc.
 
-### [**FinDeepForecast**](FinDeepForecast_README.md)
+### [**FinDeepForecast**](competitions/FinDeepForecast_README.md)
 Verify the accuracy of **financial forecasts for financial metrics and ratios** of listed companies from **9 stock exchanges** and broader **macroeconomic indicators** across **8 countries/regions**.
 
 ## Organizers

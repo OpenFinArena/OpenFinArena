@@ -1,9 +1,9 @@
 # Financial Deep Research (FinDeepResearch)
 
-**Corporate financial analysis** is a critical process for understanding a listed company's business health, financial performance, and stock valuation, ultimately guiding investment decisions. 
-Professional analysts typically execute a comprehensive and rigorous workflow, beginning with the retrieval and recognition of relevant data from diverse sources, such as corporate disclosures, financial news, historical stock prices, and market indexes. 
-The data is then used for metric calculation, followed by strategic summarization and interpretation, aggregating in the generation of a research report to inform decision-making. 
-**FinDeepResearch** is specifically designed to emulate this professional pipeline to **conduct corporate financial analysis following an expert-designed analytical structure to generate a rigorous, structured report**. 
+**Corporate financial analysis** is a critical process for understanding a listed company's business health, financial performance, and stock valuation, ultimately guiding investment decisions.
+Professional analysts typically execute a comprehensive and rigorous workflow, beginning with the retrieval and recognition of relevant data from diverse sources, such as corporate disclosures, financial news, historical stock prices, and market indexes.
+The data is then used for metric calculation, followed by strategic summarization and interpretation, aggregating in the generation of a research report to inform decision-making.
+**FinDeepResearch** is specifically designed to emulate this professional pipeline to **conduct corporate financial analysis following an expert-designed analytical structure to generate a rigorous, structured report**.
 Comprising **64 listed companies from 8 financial markets** and a total of **15,808 grading items**, FinDeepResearch provides a robust framework for evaluating the ability of advanced AI techniques (e.g., deep research agents) to generate corporate financial analysis reports that simultaneously adhere to a **systematic analytical structure (rigor)** and produce **specific, accurate claims (precision)**.
 
 <p align="center">
@@ -23,7 +23,7 @@ Formally, given a research task instruction `𝑖` with a desired analytical str
 </div>
 
 <div align="center">
-  <img src="public/images/findeepresearch_overview.png" width="100%" alt="FinDeepResearch Overview" />
+  <img src="assets/findeepresearch_overview.png" width="100%" alt="FinDeepResearch Overview" />
 </div>
 
 ## Samples
@@ -50,3 +50,69 @@ Formally, given a research task instruction `𝑖` with a desired analytical str
 </ul>
 
 The whole FinDeepResearch dataset for evaluation can be downloaded via the [🤗link](https://huggingface.co/datasets/OpenFinArena/FinDeepResearch/blob/main/input_analytical_structure.csv).
+
+## Evaluation
+
+### Env Preparation
+
+```bash
+conda create -n findeepresearch python=3.12
+conda activate findeepresearch
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the project root and add your OpenAI API key:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+### How to Evaluate a Prediction
+
+The evaluation process consists of 2 main steps
+1. Context extraction:
+   1. Extracts structured information from markdown files into a standardized JSON format that can be compared against ground truth data.
+   2. Format score assessing section headers, subsection headers and markdown tables is given in the end.
+2. Evaluation:
+   1. Evaluates extracted predictions against ground truth data using different scoring methods based on question types.
+   2. Content scores of 4 categories are given:
+      - **Overall**: The final weighted score across all companies and question types
+      - **Country-specific scores**: Individual scores for each market/location:
+        - USA, UK, China, Hong Kong, Australia, Singapore, Malaysia, Indonesia
+      - **Section-specific scores**: Individual scores for each section:
+        - S1, S2, S3, S4, S5, S6
+      - **Level-specific scores**: Individual scores for each level:
+        - level1: Recognition
+        - level2: Calculation
+        - level3: Abstraction
+        - level4: Interpretation
+
+### Ground Truth
+
+Ground truth files are **not provided** in this repository due to future competition constraints.
+
+To run the evaluation script, place your own sample markdown files under:
+
+```
+data/ground_truth/findeepresearch_track/markdown/
+```
+
+Each file should correspond to a company in the dataset (e.g., `test001.md`). With sample files in place, the evaluation pipeline will be fully executable.
+
+### Usage
+
+```bash
+PYTHONPATH='.' python evaluation/run.py \
+    --track findeepresearch \
+    --prediction_folder data/predictions/samples/markdown
+```
+**Parameters**:
+- `--track`: `findocresearch` or `findeepresearch`
+- `--prediction_folder`: Path to folder containing markdown prediction files. Each file should be the generated research report in markdown format following the analytical structure specified for that company, with the file name matching the input name exactly (e.g., `test001.md`).
+- `--model`: llm model to use for extraction (default: `gpt-4.1`)
+- `--extraction_only`: If to skip evaluation and only run extraction
+- `--evaluation_only`: If to skip extraction and only run evaluation
+- `--overwrite`: If to overwrite existing results
+
+**Env Variables**:
+- `TRACE_ENABLED`: Set to `true` to enable llm prompt and response persistence for debugging purpose

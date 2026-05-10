@@ -1,0 +1,562 @@
+{
+    "test041": {
+        "company": "QAF Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test041",
+        "location": "Singapore"
+    },
+    "test042": {
+        "company": "Frasers Centrepoint Trust",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test042",
+        "location": "Singapore"
+    },
+    "test043": {
+        "company": "OUE Real Estate Investment Trust",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test043",
+        "location": "Singapore"
+    },
+    "test044": {
+        "company": "IHH Healthcare Berhad",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test044",
+        "location": "Singapore"
+    },
+    "test045": {
+        "company": "Golden Agri-Resources Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test045",
+        "location": "Singapore"
+    },
+    "test046": {
+        "company": "Raffles Medical Group Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test046",
+        "location": "Singapore"
+    },
+    "test047": {
+        "company": "Q&M Dental Group (Singapore) Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test047",
+        "location": "Singapore"
+    },
+    "test048": {
+        "company": "ISEC Healthcare Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test048",
+        "location": "Singapore"
+    },
+    "test049": {
+        "company": "Delfi Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test049",
+        "location": "Singapore"
+    },
+    "test050": {
+        "company": "ComfortDelGro Corporation Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "case_id": "test050",
+        "location": "Singapore"
+    },
+    "test061": {
+        "company": "United Plantations Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test061",
+        "location": "Malaysia"
+    },
+    "test062": {
+        "company": "Genting Plantations Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test062",
+        "location": "Malaysia"
+    },
+    "test063": {
+        "company": "Sarawak Oil Palms Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test063",
+        "location": "Malaysia"
+    },
+    "test064": {
+        "company": "Maxis Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test064",
+        "location": "Malaysia"
+    },
+    "test065": {
+        "company": "TIME dotCom Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test065",
+        "location": "Malaysia"
+    },
+    "test066": {
+        "company": "ITMAX System Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test066",
+        "location": "Malaysia"
+    },
+    "test067": {
+        "company": "Far East Holdings Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test067",
+        "location": "Malaysia"
+    },
+    "test068": {
+        "company": "Southern Score Builders Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test068",
+        "location": "Malaysia"
+    },
+    "test069": {
+        "company": "UOA Development Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test069",
+        "location": "Malaysia"
+    },
+    "test070": {
+        "company": "Frontken Corporation Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "case_id": "test070",
+        "location": "Malaysia"
+    },
+    "test071": {
+        "company": "PT Ciputra Development Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test071",
+        "location": "Indonesia"
+    },
+    "test072": {
+        "company": "PT Bumi Serpong Damai Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test072",
+        "location": "Indonesia"
+    },
+    "test073": {
+        "company": "PT Jaya Real Property Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test073",
+        "location": "Indonesia"
+    },
+    "test074": {
+        "company": "PT Intiland Development Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test074",
+        "location": "Indonesia"
+    },
+    "test075": {
+        "company": "PT Indofood CBP Sukses Makmur Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test075",
+        "location": "Indonesia"
+    },
+    "test076": {
+        "company": "PT Mayora Indah Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test076",
+        "location": "Indonesia"
+    },
+    "test077": {
+        "company": "PT Dian Swastatika Sentosa Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test077",
+        "location": "Indonesia"
+    },
+    "test078": {
+        "company": "PT Harum Energy Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test078",
+        "location": "Indonesia"
+    },
+    "test079": {
+        "company": "PT Telekomunikasi Indonesia (Persero) Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test079",
+        "location": "Indonesia"
+    },
+    "test080": {
+        "company": "PT Pelita Teknologi Global Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "case_id": "test080",
+        "location": "Indonesia"
+    },
+    "test011": {
+        "company": "Shell PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test011",
+        "location": "UK"
+    },
+    "test012": {
+        "company": "Centrica PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test012",
+        "location": "UK"
+    },
+    "test013": {
+        "company": "Capricorn Energy PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test013",
+        "location": "UK"
+    },
+    "test014": {
+        "company": "Unilever PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test014",
+        "location": "UK"
+    },
+    "test015": {
+        "company": "Fevertree Drinks PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test015",
+        "location": "UK"
+    },
+    "test016": {
+        "company": "Airtel Africa PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test016",
+        "location": "UK"
+    },
+    "test017": {
+        "company": "Gamma Communications PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test017",
+        "location": "UK"
+    },
+    "test018": {
+        "company": "Rolls-Royce Holdings PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test018",
+        "location": "UK"
+    },
+    "test019": {
+        "company": "Babcock International Group PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test019",
+        "location": "UK"
+    },
+    "test020": {
+        "company": "QinetiQ Group PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "case_id": "test020",
+        "location": "UK"
+    },
+    "test021": {
+        "company": "中国移动有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test021",
+        "location": "China"
+    },
+    "test022": {
+        "company": "万华化学集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test022",
+        "location": "China"
+    },
+    "test023": {
+        "company": "上汽集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test023",
+        "location": "China"
+    },
+    "test024": {
+        "company": "东鹏饮料（集团）股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test024",
+        "location": "China"
+    },
+    "test025": {
+        "company": "贵州茅台酒股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test025",
+        "location": "China"
+    },
+    "test026": {
+        "company": "宜宾五粮液股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "case_id": "test026",
+        "location": "China"
+    },
+    "test028": {
+        "company": "中国电信股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test028",
+        "location": "China"
+    },
+    "test027": {
+        "company": "美的集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "case_id": "test027",
+        "location": "China"
+    },
+    "test029": {
+        "company": "中国卫通集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "case_id": "test029",
+        "location": "China"
+    },
+    "test030": {
+        "company": "益海嘉里金龙鱼食品集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "case_id": "test030",
+        "location": "China"
+    },
+    "test060": {
+        "company": "Select Harvests Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test060",
+        "location": "Australia"
+    },
+    "test051": {
+        "company": "BHP Group Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test051",
+        "location": "Australia"
+    },
+    "test052": {
+        "company": "Astral Resources NL",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test052",
+        "location": "Australia"
+    },
+    "test053": {
+        "company": "Ramsay Health Care Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test053",
+        "location": "Australia"
+    },
+    "test054": {
+        "company": "PolyNovo Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test054",
+        "location": "Australia"
+    },
+    "test055": {
+        "company": "Metcash Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test055",
+        "location": "Australia"
+    },
+    "test056": {
+        "company": "Telstra Group Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test056",
+        "location": "Australia"
+    },
+    "test057": {
+        "company": "NEXTDC Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test057",
+        "location": "Australia"
+    },
+    "test058": {
+        "company": "Spark New Zealand Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test058",
+        "location": "Australia"
+    },
+    "test059": {
+        "company": "Ai-Media Technologies Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "case_id": "test059",
+        "location": "Australia"
+    },
+    "test031": {
+        "company": "中國石油天然氣",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test031",
+        "location": "Hong Kong"
+    },
+    "test032": {
+        "company": "中國海洋石油",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test032",
+        "location": "Hong Kong"
+    },
+    "test033": {
+        "company": "中港石油",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test033",
+        "location": "Hong Kong"
+    },
+    "test034": {
+        "company": "春泉產業信託",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test034",
+        "location": "Hong Kong"
+    },
+    "test035": {
+        "company": "中國建築國際集團",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test035",
+        "location": "Hong Kong"
+    },
+    "test036": {
+        "company": "美團",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test036",
+        "location": "Hong Kong"
+    },
+    "test037": {
+        "company": "中国神华能源股份",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test037",
+        "location": "Hong Kong"
+    },
+    "test038": {
+        "company": "天德地產有限公司",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test038",
+        "location": "Hong Kong"
+    },
+    "test039": {
+        "company": "香港小輪",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test039",
+        "location": "Hong Kong"
+    },
+    "test040": {
+        "company": "中聯重科",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "case_id": "test040",
+        "location": "Hong Kong"
+    },
+    "test001": {
+        "company": "MP Materials Corp",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test001",
+        "location": "USA"
+    },
+    "test002": {
+        "company": "Williams-Sonoma Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test002",
+        "location": "USA"
+    },
+    "test003": {
+        "company": "Xperi Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test003",
+        "location": "USA"
+    },
+    "test004": {
+        "company": "FiscalNote Holdings Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test004",
+        "location": "USA"
+    },
+    "test005": {
+        "company": "Compass Minerals International Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test005",
+        "location": "USA"
+    },
+    "test006": {
+        "company": "UnitedHealth Group Incorporated",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test006",
+        "location": "USA"
+    },
+    "test007": {
+        "company": "Centene Corporation",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test007",
+        "location": "USA"
+    },
+    "test008": {
+        "company": "The Home Depot Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test008",
+        "location": "USA"
+    },
+    "test009": {
+        "company": "DICK'S Sporting Goods Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test009",
+        "location": "USA"
+    },
+    "test010": {
+        "company": "CBL & Associates Properties Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "case_id": "test010",
+        "location": "USA"
+    }
+}

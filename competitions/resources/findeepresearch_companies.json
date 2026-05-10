@@ -1,0 +1,514 @@
+{
+    "test001": {
+        "company": "Nvidia",
+        "language": "English",
+        "stock_market": "Nasdaq Stock Market",
+        "date": "2024-07-29",
+        "location": "USA",
+        "case_id": "test001"
+    },
+    "test002": {
+        "company": "Exxon Mobil Corporation",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2025-06-30",
+        "location": "USA",
+        "case_id": "test002"
+    },
+    "test003": {
+        "company": "The Home Depot Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2024-07-29",
+        "location": "USA",
+        "case_id": "test003"
+    },
+    "test004": {
+        "company": "UnitedHealth Group Incorporated",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2025-06-30",
+        "location": "USA",
+        "case_id": "test004"
+    },
+    "test005": {
+        "company": "DICK'S Sporting Goods Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2024-07-29",
+        "location": "USA",
+        "case_id": "test005"
+    },
+    "test006": {
+        "company": "Humana Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2025-06-30",
+        "location": "USA",
+        "case_id": "test006"
+    },
+    "test007": {
+        "company": "Energy Transfer LP",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2025-06-30",
+        "location": "USA",
+        "case_id": "test007"
+    },
+    "test008": {
+        "company": "Williams-Sonoma Inc",
+        "language": "English",
+        "stock_market": "New York Stock Exchange",
+        "date": "2024-07-29",
+        "location": "USA",
+        "case_id": "test008"
+    },
+    "test009": {
+        "company": "Unilever PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2025-06-30",
+        "location": "UK",
+        "case_id": "test009"
+    },
+    "test010": {
+        "company": "Vodafone Group PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2024-09-27",
+        "location": "UK",
+        "case_id": "test010"
+    },
+    "test011": {
+        "company": "Rolls-Royce Holdings PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2025-06-30",
+        "location": "UK",
+        "case_id": "test011"
+    },
+    "test012": {
+        "company": "Shell PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2025-06-30",
+        "location": "UK",
+        "case_id": "test012"
+    },
+    "test013": {
+        "company": "Harbour Energy PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2025-06-30",
+        "location": "UK",
+        "case_id": "test013"
+    },
+    "test014": {
+        "company": "Airtel Africa PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2024-09-27",
+        "location": "UK",
+        "case_id": "test014"
+    },
+    "test015": {
+        "company": "Babcock International Group PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2024-09-27",
+        "location": "UK",
+        "case_id": "test015"
+    },
+    "test016": {
+        "company": "Centrica PLC",
+        "language": "English",
+        "stock_market": "London Stock Exchange",
+        "date": "2025-06-30",
+        "location": "UK",
+        "case_id": "test016"
+    },
+    "test017": {
+        "company": "比亚迪股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test017"
+    },
+    "test018": {
+        "company": "宁德时代新能源科技股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test018"
+    },
+    "test019": {
+        "company": "中国移动有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test019"
+    },
+    "test020": {
+        "company": "中国电信股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test020"
+    },
+    "test021": {
+        "company": "上汽集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test021"
+    },
+    "test022": {
+        "company": "美的集团股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test022"
+    },
+    "test023": {
+        "company": "贵州茅台酒股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shanghai Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test023"
+    },
+    "test024": {
+        "company": "格力电器股份有限公司",
+        "language": "Simplified Chinese",
+        "stock_market": "Shenzhen Stock Exchange",
+        "date": "2025-06-30",
+        "location": "China",
+        "case_id": "test024"
+    },
+    "test025": {
+        "company": "騰訊",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test025"
+    },
+    "test026": {
+        "company": "美團",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test026"
+    },
+    "test027": {
+        "company": "中國海洋石油",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test027"
+    },
+    "test028": {
+        "company": "新鴻基地產",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2024-12-27",
+        "location": "Hong Kong",
+        "case_id": "test028"
+    },
+    "test029": {
+        "company": "中國石油天然氣",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test029"
+    },
+    "test030": {
+        "company": "中國交通建設",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test030"
+    },
+    "test031": {
+        "company": "中國建築國際集團",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test031"
+    },
+    "test032": {
+        "company": "中国神华能源股份",
+        "language": "Traditional Chinese",
+        "stock_market": "Stock Exchange of Hong Kong",
+        "date": "2025-06-30",
+        "location": "Hong Kong",
+        "case_id": "test032"
+    },
+    "test033": {
+        "company": "Singapore Airlines Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2024-09-27",
+        "location": "Singapore",
+        "case_id": "test033"
+    },
+    "test034": {
+        "company": "IHH Healthcare Berhad",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-06-30",
+        "location": "Singapore",
+        "case_id": "test034"
+    },
+    "test035": {
+        "company": "Frasers Centrepoint Trust",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-03-28",
+        "location": "Singapore",
+        "case_id": "test035"
+    },
+    "test036": {
+        "company": "Raffles Medical Group Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-06-30",
+        "location": "Singapore",
+        "case_id": "test036"
+    },
+    "test037": {
+        "company": "Singapore Shipping Corporation Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2024-09-27",
+        "location": "Singapore",
+        "case_id": "test037"
+    },
+    "test038": {
+        "company": "ComfortDelGro Corporation Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-06-30",
+        "location": "Singapore",
+        "case_id": "test038"
+    },
+    "test039": {
+        "company": "Food Empire Holdings Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-06-30",
+        "location": "Singapore",
+        "case_id": "test039"
+    },
+    "test040": {
+        "company": "Delfi Ltd",
+        "language": "English",
+        "stock_market": "Singapore Exchange",
+        "date": "2025-06-30",
+        "location": "Singapore",
+        "case_id": "test040"
+    },
+    "test041": {
+        "company": "BHP Group Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test041"
+    },
+    "test042": {
+        "company": "Telstra Group Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test042"
+    },
+    "test043": {
+        "company": "CSL Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test043"
+    },
+    "test044": {
+        "company": "Spark New Zealand Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test044"
+    },
+    "test045": {
+        "company": "NEXTDC Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test045"
+    },
+    "test046": {
+        "company": "Contact Energy Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test046"
+    },
+    "test047": {
+        "company": "Ramsay Health Care Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-12-27",
+        "location": "Australia",
+        "case_id": "test047"
+    },
+    "test048": {
+        "company": "Metcash Ltd",
+        "language": "English",
+        "stock_market": "Australian Securities Exchange",
+        "date": "2024-10-28",
+        "location": "Australia",
+        "case_id": "test048"
+    },
+    "test049": {
+        "company": "Tenaga Nasional Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test049"
+    },
+    "test050": {
+        "company": "Maxis Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test050"
+    },
+    "test051": {
+        "company": "IJM Corporation Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2024-09-27",
+        "location": "Malaysia",
+        "case_id": "test051"
+    },
+    "test052": {
+        "company": "Gas Malaysia Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test052"
+    },
+    "test053": {
+        "company": "Ekovest Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2024-12-27",
+        "location": "Malaysia",
+        "case_id": "test053"
+    },
+    "test054": {
+        "company": "United Plantations Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test054"
+    },
+    "test055": {
+        "company": "Genting Plantations Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test055"
+    },
+    "test056": {
+        "company": "TIME dotCom Berhad",
+        "language": "English",
+        "stock_market": "Bursa Malaysia",
+        "date": "2025-06-30",
+        "location": "Malaysia",
+        "case_id": "test056"
+    },
+    "test057": {
+        "company": "PT Telekomunikasi Indonesia (Persero) Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test057"
+    },
+    "test058": {
+        "company": "PT Bayan Resources Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test058"
+    },
+    "test059": {
+        "company": "PT Indofood CBP Sukses Makmur Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test059"
+    },
+    "test060": {
+        "company": "PT Mayora Indah Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test060"
+    },
+    "test061": {
+        "company": "PT Garudafood Putra Putri Jaya Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test061"
+    },
+    "test062": {
+        "company": "PT Bumi Serpong Damai Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test062"
+    },
+    "test063": {
+        "company": "PT Harum Energy Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test063"
+    },
+    "test064": {
+        "company": "PT Dayamitra Telekomunikasi Tbk",
+        "language": "English",
+        "stock_market": "Indonesia Stock Exchange",
+        "date": "2025-06-30",
+        "location": "Indonesia",
+        "case_id": "test064"
+    }
+}

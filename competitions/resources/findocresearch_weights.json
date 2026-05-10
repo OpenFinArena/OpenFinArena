@@ -1,0 +1,49 @@
+{
+    "S1": {
+        "name": "Company Overview",
+        "details": {
+            "S1.1": {"type": "R2", "name": "Basic Information", "fields": ["Company Name", "Establishment Date", "Headquarters Location"], "categories":  ["Value"], "item_weights":  1},
+            "S1.2": {"type": "A", "name": "Core Competencies", "fields": ["Innovation Advantages", "Product Advantages", "Brand Recognition", "Reputation Ratings"], "categories":  ["FY", "FY-1"], "item_weights":  2},
+            "S1.3": {"type": "R2", "name": "Mission & Vision", "fields": ["Mission Statement", "Vision Statement", "Core Values"], "categories":  ["Value"], "item_weights":  1}
+        }
+    },
+    "S2": {
+        "name": "Financial Performance",
+        "details": {
+            "S2.1": {"type": "R3", "name": "Income Statement", "fields": ["Revenue", "Cost of Goods Sold", "Gross Profit", "Operating Expense", "Operating Income", "Net Profit", "Income before Income Taxes", "Income tax expense (benefit)", "Interest Expense"], "categories":  ["FY", "FY-1", "FY-2"], "item_weights":  1},
+            "S2.2": {"type": "R3", "name": "Balance Sheet", "fields": ["Total Assets", "Current Assets", "Non-Current Assets", "Total Liabilities", "Current Liabilities", "Non-Current Liabilities", "Shareholders' Equity", "Retained Earnings", "Total Equity and Liabilities", "Inventories", "Prepaid Expenses"], "categories":  ["FY", "FY-1", "FY-2"], "item_weights":  1},
+            "S2.3": {"type": "R3", "name": "Cash Flow Statement", "fields": ["Net Cash Flow from Operations", "Net Cash Flow from Investing", "Net Cash Flow from Financing", "Net Increase/Decrease in Cash", "Dividends"], "categories":  ["FY", "FY-1", "FY-2"], "item_weights":  1},
+            "S2.4": {"type": "C", "name": "Key Financial Metrics", "fields": ["Gross Margin", "Operating Margin", "Net Profit Margin", "Current Ratio", "Quick Ratio", "Debt-to-Equity", "Interest Coverage", "Asset Turnover", "Return on Equity", "Return on Assets", "Effective Tax Rate", "Dividend Payout Ratio"], "categories":  ["FY", "FY-1", "FY-2"], "item_weights":  1},
+            "S2.5": {"type": "R1", "name": "Operating Performance", "fields": ["Revenue by Product/Service", "Revenue by Geographic Region"], "categories":  ["FY", "FY-1", "FY-2"], "item_weights": 1}
+        }
+    },
+    "S3": {
+        "name": "Business Analysis",
+        "details": {
+            "S3.1": {"type": "I", "name": "Profitability Analysis", "fields": ["Revenue & Direct-Cost Dynamics", "Operating Efficiency", "External & One-Off Impact"], "categories":  ["Value"], "item_weights":  2},
+            "S3.2": {"type": "A", "name":  "Financial Performance Summary", "fields": ["Comprehensive Financial Health", "Profitability and Earnings Quality", "Operational Efficiency", "Financial Risk Identification and Early Warning", "Future Financial Performance Projection"], "categories":  ["FY", "FY-1"], "item_weights":  2},
+            "S3.3": {"type": "A", "name":  "Business Competitiveness", "fields": ["Business Model", "Market Position"], "categories":  ["FY", "FY-1"], "item_weights":  2}
+        }
+    },
+    "S4": {
+        "name": "Risk Factors",
+        "details": {
+            "S4.1": {"type": "A", "name": "", "fields": ["Market Risks", "Operational Risks", "Financial Risks", "Compliance Risks"], "categories":  ["FY", "FY-1"], "item_weights":  2}
+        }
+    },
+    "S5": {
+        "name": "Corporate Governance",
+        "details": {
+            "S5.1": {"type": "R4", "name": "Board Composition", "fields": ["Name", "Position", "Total Income"], "categories":  ["Board Member1"], "item_weights":  1},
+            "S5.2": {"type": "A", "name": "Internal Controls", "fields": ["Risk Assessment Procedures", "Control Activities", "Monitoring Mechanisms", "Identified Material Weaknesses or Deficiencies", "Effectiveness"], "categories":  ["FY", "FY-1"], "item_weights":  2}
+        }
+    },
+    "S6": {
+        "name": "Future Outlook",
+        "details": {
+            "S6.1": {"type": "A", "name": "Strategic Direction", "fields": ["Mergers and Acquisition", "New Technologies", "Organisational Restructuring"], "categories":  ["FY", "FY-1"], "item_weights":  2},
+            "S6.2": {"type": "A", "name": "Challenges and Uncertainties", "fields": ["Economic Challenges", "Competitive Pressures"], "categories":  ["FY", "FY-1"], "item_weights":  2},
+            "S6.3": {"type": "A", "name": "Innovation and Development Plans", "fields": ["R&D Investments", "New Product Launches"], "categories":  ["FY", "FY-1"], "item_weights":  2}
+        }
+    }
+}
